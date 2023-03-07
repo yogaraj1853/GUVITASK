@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile page</title>
+    <link rel="stylesheet"href="css/profile.css">
+</head>
+<body>
+	<h1>Profile Page</h1>
+	<form method="post"action="php/profile.php"></form>
+	<form>
+		<label>Name:</label>
+		<input type="text" name="name" required><br><br>
+		<label>Age:</label>
+		<input type="number" name="age" required><br><br>
+        <label>DOB:</label> 
+        <input type="date" dob="dob" required><br><br>
+		<label>Gender:</label>
+		<input type="radio" name="gender" value="male" checked> Male
+  		<input type="radio" name="gender" value="female"> Female<br><br>
+  		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
+<script src="js/profile.js"></script>

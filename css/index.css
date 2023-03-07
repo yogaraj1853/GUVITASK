@@ -1,0 +1,42 @@
+*{
+   background-image: url("../assets/index3.jpg");
+   background-size: cover;
+}
+body{
+    background-color:#a19393;
+	font-family: sans-serif;
+    width: auto;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    background: none;
+}
+.container{
+    width: 20vh;
+    position: absolute;
+    display: flex;
+    position: absolute;
+    border: none;
+    padding: 90px 200px;
+    background: none;
+}
+.container a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: rgb(6, 3, 10);
+    background: none;
+}
+a{
+    text-align: center;
+    font-size: 25px;
+    background: none;
+    color: rgb(247, 247, 248);
+}
+ul{
+    background: none;
+}
+
